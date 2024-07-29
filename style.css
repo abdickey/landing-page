@@ -27,6 +27,7 @@ body {
 
 .container-three {
     align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -114,9 +115,26 @@ button {
 }
 
 .quote-box {
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
+.bottom-sign-up {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.quote {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.quote-attribute {
+    text-align: right;
+}
 
 
 
